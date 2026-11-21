@@ -7,10 +7,10 @@ import { join } from "node:path";
 const POEM = [
   "We each held a different map",
   "of the same small field.",
-  "You folded yours first.",
+  "You folded yours.",
   "I folded mine.",
   "Between us, one road —",
-  "walked because we both chose it.",
+  "open only where we both step.",
 ].join("\n");
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
